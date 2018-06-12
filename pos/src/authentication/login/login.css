@@ -1,0 +1,31 @@
+/* enable absolute positioning */
+.inner-addon { 
+    position: relative; 
+}
+
+/* style icon */
+.inner-addon .icon-inside {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon .icon-inside  { left:  0px;color: #6D7B8D;}
+.right-addon .icon-inside { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+.justify-content-center{
+    padding-top: 20px;
+}
+.inner-addon{
+    padding-top: 20px;
+}
+.padding-top{
+    padding-top: 20px;
+}
+.btn-width{
+    width: 100%;
+}
